@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>Projet</title>
+    <link rel="stylesheet" type="text/css" href="css/navigation.css" media="all">
+    <link rel="stylesheet" type="text/css" href="css/photoProfil.css" media="all">
+    <link rel="stylesheet" type="text/css" href="css/banner-projet.css" media="all">
+
+
+    <!-- On peut avoir d'autres méta-données ici -->
+  </head>
+  <body>
+
+        <div class="container">
+            <nav>
+                <div id="logo">
+                    <img src="images/saaaaay.jpg" alt="Phot de profil">
+                </div>
+                <div class="menu">
+                    <div class="division1">
+                        <ul class="navigation">
+                            <li class="item">  <img class="picto-nav" src="images/gris.jpg" alt="">    <a href="index.html">Acceuil</a>  </li>
+                            <li class="item">   <img class="picto-nav" src="images/gris.jpg" alt=""> <a href="profil.html">Profil</a> </li>
+                            <li class="item">  <img class="picto-nav" src="images/gris.jpg" alt="">   <a href="competences.html">Competences</a>  </li>
+                            <li class="item">   <img class="picto-nav" src="images/projet.jpg" alt="">  <a href="projet.html">Projets</a> </li>
+                        </ul>
+                    </div>
+                    <div class="division2"></div>
+                </div> 
+                <div class="pictogramme">
+                    <img class="picto" src="images/pomacanthus.jpg" alt="">
+                    <img class="picto" src="images/pomacanthus.jpg" alt="">
+                    <img class="picto" src="images/pomacanthus.jpg" alt="">
+                </div> 
+            </nav>
+
+        <div id="divider"></div>
+<!-- Class banner Associer avec du JS fera mes changements de pages -->
+        <div class="banner">
+            <div class="projet"> 
+                <h2> Projet Réalisés</h2>
+            </div>
+            <div class="projet-type" >
+                    <h3 class="normal" id="js" onclick="changeCouleur()">JavaScript </h3> 
+                    <h3 class="normal" id="angular" onclick="changeCouleur()">Angular</h3> 
+                    <h3 class="normal" id="java" onclick="changeCouleur()"> Java</h3>
+                    <h3 class="normal" id="react" onclick="changeCouleur()"> React</h3> 
+            </div>
+            <div class="projet-list">
+                <div class="projet-titre">
+                    <img class="projet-image" id="img1" src="images/bleu.png" alt=""> 
+                    <h4>Titre 1</h4>
+                </div>
+                <div class="projet-titre">
+                    <img class="projet-image" id="img2" src="images/bleu.png" alt=""> 
+                    <h4>Titre 1</h4>
+                </div>
+                <div class="projet-titre">
+                    <img class="projet-image" id="img3" src="images/bleu.png" alt=""> 
+                    <h4>Titre 1</h4>
+                </div>
+                
+            </div>
+        </div>
+
+    </div>
+   <!-- fichier JS-->
+   <script src="JS/projet.js"></script>
+  </body>
+</html>
